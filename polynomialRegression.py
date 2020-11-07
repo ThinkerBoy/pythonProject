@@ -33,6 +33,8 @@ def to_matrix(x):
 
 X = to_matrix(train_z)
 
+
+print(X.shape)
 #预测函数
 
 def f(x):
